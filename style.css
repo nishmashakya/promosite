@@ -1,0 +1,34 @@
+body {
+
+}
+
+
+p {
+
+}
+
+h1 {
+	font-family: sans-serif;
+}
+
+/*id takes priority over class*/
+#firstpar {
+	text-decoration: underline;
+	color: white;
+}
+
+.emp {
+	font-family: monospace;
+}
+
+.superemp {
+	color: pink;
+	width: 300px;
+	display: inline-block;
+	text-align: left;
+}
+
+.organizer {
+	background-color: blue;
+	text-align: center;
+}
