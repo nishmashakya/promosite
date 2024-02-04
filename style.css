@@ -1,34 +1,55 @@
 body {
-
+	text-align: center;
 }
 
-
-p {
-
+h1, h2, p {
+    margin: 0;
 }
 
-h1 {
-	font-family: sans-serif;
+h3 {
+	
+}
+
+div {
+	padding: 50px 0px 50px 0px;
 }
 
 /*id takes priority over class*/
-#firstpar {
-	text-decoration: underline;
+#dates {
+
+}
+
+#centers {
+
+}
+
+#cities {
+
+}
+
+/*classes*/
+.heading {
+	background-color: black;
 	color: white;
 }
 
-.emp {
+.tourdates {
+	background-color: lavender;
+}
+
+.music {
+
+}
+
+
+.description {
 	font-family: monospace;
 }
 
-.superemp {
-	color: pink;
+.blocktext {
 	width: 300px;
 	display: inline-block;
 	text-align: left;
 }
 
-.organizer {
-	background-color: blue;
-	text-align: center;
-}
+
