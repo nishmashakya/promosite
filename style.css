@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Lilita+One&family=Rubik+Doodle+Shadow&display=swap');
+
 body {
 	text-align: center;
 }
@@ -6,8 +8,23 @@ h1, h2, p {
     margin: 0;
 }
 
+h1 {
+	font-family: "Lilita One", sans-serif;
+	font-weight: 500;
+	font-size: 100px;
+}
+
+h2 {
+	font-family: "Lilita One", sans-serif;
+	font-weight: 200;
+	font-style: normal;
+	font-size: 60px;
+}
+
 h3 {
-	
+	font-family: "Rubik Doodle Shadow", system-ui;
+  	font-weight: 500;
+  	font-size: 40px;
 }
 
 div {
@@ -16,16 +33,9 @@ div {
 
 /*id takes priority over class*/
 #dates {
-
+	font-weight: 700;
 }
 
-#centers {
-
-}
-
-#cities {
-
-}
 
 /*classes*/
 .heading {
@@ -33,18 +43,19 @@ div {
 	color: white;
 }
 
-.tourdates {
-	background-color: lavender;
-}
-
-.music {
-
-}
-
-
 .description {
-	font-family: monospace;
+	font-family: "Courier Prime", monospace;
+  	font-weight: 400;
+  	font-style: normal;
+  	font-size: 15px;
 }
+
+
+.tourdates {
+	background-color: #A390E6;
+	color: white;
+}
+
 
 .blocktext {
 	width: 300px;
